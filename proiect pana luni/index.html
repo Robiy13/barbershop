@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title> One Barber Shop </title>
+	     <link rel="icon" href="favicon.ico" />
+	 <link rel="stylesheet" href="fontawesome.min.css">
+	<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header id="home" class="home">
+
+      
+      <div class="mynavbar" id="myNavbar">
+        <div class="title"> 
+        <a href="index.html">Barber Shop</a>
+      </div>
+          <a href="#Contact">Contact</a>
+          <a href="#Servicii">Servicii</a>
+          <a href="#Despre">Despre noi</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!--Functia de responsive (burger menu) si functie pentru Stick-Navbar-->>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "mynavbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "mynavbar";
+          }
+        }
+
+        
+        window.onscroll = function () {
+            stickNavbar();
+        };
+
+        var navbar = document.getElementById("myNavbar");
+        var sticky = navbar.offsetTop;
+
+        function stickNavbar() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        </script>
+        
+
+      <div class="logo"> <img src="image/logo.gif" class="logo" alt="logo barber shop"></div> 
+
+
+<br><br><br>
+</header>
+
+	<div class="Despre" id="Despre">
+    <div class="l"><br></div>
+     <div class="wallpaper1">
+      <br>
+     <div class="container mt-5">
+     
+      <div class="row">
+       
+        <div class="col-md-8 mx-auto">
+          <h1 class="text-center mb-4">Despre Noi - Barber Shop</h1>
+          <p>Bine ați venit la Barber Shop - locul unde frumusețea și îngrijirea capătă o nouă dimensiune! Suntem o echipă dedicată de profesioniști pasionați, gata să vă ofere experiența completă a unei frizerii de calitate.</p>
+       
+          <h2>Misiunea Noastră</h2>
+          <p>La Barber Shop, misiunea noastră este să oferim clienților noștri mai mult decât o simplă tunsorare. Ne propunem să creeăm o atmosferă prietenoasă și relaxantă, unde fiecare vizită să fie o experiență memorabilă. Suntem dedicați să aducem la viață stilul și încrederea clienților noștri, oferind servicii de calitate superioară.</p>
+    
+          <h2>Experiență și Profesionalism</h2>
+          <p>Cu o experiență bogată în domeniul frizeriei, echipa noastră de stilisti și stiliste este formată pentru a vă oferi cele mai recente și inovatoare tunsori și stilizări. Suntem mereu la curent cu tendințele din industrie și ne actualizăm continuu abilitățile pentru a vă aduce cele mai bune servicii.</p>
+    
+          <h2>Oferim Mai Mult Decât O Frizerie Obișnuită</h2>
+          <p>La Barber Shop, suntem convinși că o frizerie nu înseamnă doar tunsori și coafuri. Încercăm să oferim o experiență completă, unde clienții noștri se pot relaxa și se pot bucura de un moment de răsfăț. De la atmosfera plăcută la consultanța personalizată, facem tot posibilul să vă simțiți speciali la fiecare vizită.</p>
+    
+          <h2>Comunitate și Implicare</h2>
+          <p>Suntem mândri să facem parte din comunitatea noastră și să contribuim la dezvoltarea acesteia. Organizăm evenimente periodice și susținem diverse cauze sociale pentru a ne implica activ în viața orașului nostru.</p>
+    
+          <p class="text-center mt-4">Venind la Barber Shop, nu veți experimenta doar o simplă tunsorare, ci veți face parte dintr-o comunitate care pune accent pe frumusețe, încredere și calitate.</p>
+    
+          <p class="text-center mt-4">Vă așteptăm cu drag la Barber Shop, locul unde frumusețea prinde viață!</p>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+         </div>
+         
+        
+         <div class="Servicii" id="Servicii">
+          <div class="l"><br></div>
+            <div class="wallpaper3">
+             <br>
+             <div class="container mt-1">
+              <h1 class="text-center">Servicii Barber Shop</h1>
+              <br>
+          <div class="row">
+              <div class="col">
+                  <h2>Tunsorile clasice</h2>
+                  <ul class="list">
+                    <li>Tunsori pentru bărbați - <span>50 lei</span></li>
+                    <li>Tunsori pentru copii - <span>30 lei</span></li>
+                  </ul>
+                  <h2>Tunsorile moderne</h2>
+                  <ul class="list">
+                    <li>Tunsori la modă și trendy -<span> 60 lei </span></li>
+                    <li>Degradate și fade-uri - <span>65 lei</span></li>
+                    <li>Tunsori cu mașină sau foarfecă - <span>55 lei</span></li>
+                  </ul>
+                  <h2>Barbierit clasic</h2>
+                  <ul class="list">
+                    <li>Barbierit cu brici și prelucrare a barbei - <span>45 lei</span></li>
+                    <li>Tratamente pentru barbă (hidratare, condiționare) - <span>35 lei</span></li>
+                  </ul>
+                </div>
+              
+                <!--<div class="col"></div>--> 
+
+                  <div class="col">
+                  <h2>Tunsorile clasice</h2>
+                  <ul class="list">
+                    <li>Tunsori pentru bărbați - <span>50 lei</span></li>
+                    <li>Tunsori pentru copii - <span>30 lei</span></li>
+                  </ul>
+                  <h2>Tunsorile moderne</h2>
+                  <ul class="list">
+                    <li>Tunsori la modă și trendy -<span> 60 lei </span></li>
+                    <li>Degradate și fade-uri - <span>65 lei</span></li>
+                    <li>Tunsori cu mașină sau foarfecă - <span>55 lei</span></li>
+                  </ul>
+                  <h2>Stilizare și coafat</h2>
+                  <ul class="list">
+                    <li>Stilizare cu produse profesionale - <span>40 lei</span></li>
+                    <li>Coafat pentru evenimente speciale - <span>70 lei</span></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h2>Tunsorile clasice</h2>
+                  <ul class="list">
+                    <li>Tunsori pentru bărbați - <span>50 lei</span></li>
+                    <li>Tunsori pentru copii - <span>30 lei</span></li>
+                  </ul>
+                  <h2>Tunsorile moderne</h2>
+                  <ul class="list">
+                    <li>Tunsori la modă și trendy -<span> 60 lei </span></li>
+                    <li>Degradate și fade-uri - <span>65 lei</span></li>
+                    <li>Tunsori cu mașină sau foarfecă - <span>55 lei</span></li>
+                  </ul>
+                  <h2>Stilizare și coafat</h2>
+                  <ul class="list">
+                    <li>Stilizare cu produse profesionale - <span>40 lei</span></li>
+                    <li>Coafat pentru evenimente speciale - <span>70 lei</span></li>
+                  </ul>
+                </div>
+              </div>
+             
+           </div>
+           <br>
+         </div>
+                </div>
+
+     
+      <div class="Contact" id="Contact">
+        <div class="l"><br></div>
+        <div class="wallpaper2">
+         <br>
+        
+         <section id="contact">
+          <h2 class="text-center mb-4">Contact</h2>
+      
+          <div class="row">
+              <div class="col-md-6 order-md-1">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2856.0941303472405!2d23.835225576832116!3d44.28745297107911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d61410c18c55%3A0x221cb0bb3a2a9fa0!2sAleea%206%20Capsunilor%204!5e0!3m2!1sen!2sro!4v1705585985918!5m2!1sen!2sro"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+      
+              <div class="col-md-6 order-md-2">
+                <br>
+                <br>
+                <div class="info">
+                  <h5>Număr de telefon: <a href="tel:+40770281126" style="color: aliceblue;">+40 770 281 126</a></h5>
+                  <br>
+                  <address>
+                    <h5>Adresă:</h5> Aleea 6 Capsunilor, Nr.4, Preajba, Malu Mare
+                  </address>
+                  <h5>Program:</h5>
+                  <ul class="list">
+                      <li>Luni: 9:00 - 17:00</li>
+                      <li>Marți: 9:00 - 17:00</li>
+                      <li>Miercuri: 9:00 - 17:00</li>
+                      <li>Joi: 9:00 - 17:00</li>
+                      <li>Vineri: 9:00 - 17:00</li>
+                      <li>Sâmbătă: 09:00 - 16:00</li>
+                      <li>Duminică: 09:00 - 16:00</li>
+                  </ul>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+      
+
+       <br>
+     </div>
+            </div>
+
+       <div class="l"><br></div>
+       <footer class="footer">
+        <br>
+            <center>&copy; 2024 One Barber Shop. All rights reserved.</center>
+            <br>
+    </footer>
+
+
+  </body>
+  
+  
+  
+  
+  
+  
+</html>
